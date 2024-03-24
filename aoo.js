@@ -15,6 +15,7 @@ const App = () => {
         {/* Define your other routes here */}
         <Route component={NotFound} />
       </Switch>
+      <div>jain</div>
     </Router>
   );
 };
