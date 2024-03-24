@@ -1,0 +1,10 @@
+.tshirt {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .girl {
+    position: relative;
+    z-index: 1;
+  }
+  

@@ -1,0 +1,6 @@
+Camel Case - sumTwoNum 
+Pascal Case - SumTwoNum
+Snake Case - sum_two_num
+Kebab Case - sum-two-num
+Train Case - Sum-Two-Num
+Upper Case - SUM_TWO_NUM

@@ -1,0 +1,24 @@
+| EmployeeID | Name      | DepartmentID |
+|------------|-----------|--------------|
+| 1          | Alice     | 101          |
+| 2          | Bob       | 102          |
+| 3          | Charlie   | 101          |
+| 4          | David     | NULL         |
+
+| DepartmentID | DepartmentName |
+|--------------|----------------|
+| 101          | HR             |
+| 102          | Finance        |
+| 103          | Marketing      |
+
+SELECT Employees.Name, Departments.DepartmentName
+FROM Employees
+INNER JOIN Departments ON Employees.DepartmentID = Departments.DepartmentID;
+
+
+| Name    | DepartmentName |
+|---------|----------------|
+| Alice   | HR             |
+| Bob     | Finance        |
+| Charlie | HR             |
+

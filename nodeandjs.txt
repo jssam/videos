@@ -1,0 +1,17 @@
+diff in node and js 
+
+node is env where we
+can run js 
+for only js we have browser
+as env to run js used by user
+node is server side env
+
+depend on env js can use different api
+frontend- dom, canvas, localStorage
+server - file system
+
+browser- global object is
+window
+
+node- global object is
+global
