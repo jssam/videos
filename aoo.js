@@ -16,7 +16,10 @@ const App = () => {
         <Route component={NotFound} />
       </Switch>
       <div>jain</div>
+      <div>sanyam</div>
+      <div>sanya2m</div>
     </Router>
+
   );
 };
 
